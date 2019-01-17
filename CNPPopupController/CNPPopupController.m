@@ -317,6 +317,10 @@ CGFloat CNP_UIInterfaceOrientationAngleOfOrientation(UIInterfaceOrientation orie
     }];
 }
 
+- (void)resetViewFrame:(CGRect)frame{
+    self.popupView.frame = frame;
+}
+
 - (CGPoint)originPoint {
     CGPoint origin;
     switch (self.theme.presentationStyle) {
