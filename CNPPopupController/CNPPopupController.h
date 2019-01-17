@@ -22,6 +22,8 @@
 - (void)presentPopupControllerAnimated:(BOOL)flag;
 - (void)dismissPopupControllerAnimated:(BOOL)flag;
 
+- (void)resetViewFrame:(CGRect)frame;
+
 @end
 
 @protocol CNPPopupControllerDelegate <NSObject>
