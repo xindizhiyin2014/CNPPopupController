@@ -20,7 +20,7 @@ Please feel free to contribute to this project, open issues, make suggestions an
 
 Available in [CocoaPods](http://cocoapods.org/?q=CNPPopupController)
 
-`pod 'CNPPopupController'`
+`pod 'JKPopupController'`
 
 ##Usage
 
