@@ -11,7 +11,7 @@ typedef void(^JKDatePickerSelectedBlock)(NSDate *date);
 @interface JKDatePickerView : UIView
 @property (nonatomic,strong) NSDate *defaultDate;     ///< 初始的date
 @property (nonatomic,assign) UIDatePickerMode datePickerModel; ///< 日期模型
-@property (nonatomic,copy) YWDatePickerSelectedBlock selectedBlock;
+@property (nonatomic,copy) JKDatePickerSelectedBlock selectedBlock;
 
 - (void)showAnimated:(BOOL)animated;
 
