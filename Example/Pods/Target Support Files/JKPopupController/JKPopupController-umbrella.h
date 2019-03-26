@@ -11,6 +11,7 @@
 #endif
 
 #import "CNPPopupController.h"
+#import "JKDatePickerView.h"
 #import "JKPopupController.h"
 #import "JKPopupMacro.h"
 #import "JKPopupView.h"

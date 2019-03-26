@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKPopupController'
-  s.version          = '0.3.6'
+  s.version          = '0.3.6.1'
   s.summary          = 'this is a PopupController.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ Tthis is a PopupController,it will update with the need
 
   s.source_files = 'JKPopupController/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JKPopupController' => ['JKPopupController/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'JKPopupController' => ['JKPopupController/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -1,6 +1,6 @@
 PODS:
   - HexColors (2.2.1)
-  - JKPopupController (0.3.6):
+  - JKPopupController (0.3.6.1):
     - HexColors (= 2.2.1)
     - JKSandBoxManager
     - JKUIHelper
@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
-  JKPopupController: 7734b0c9f108d11bf1c7650f7672b151bcac42f7
+  JKPopupController: b5e20fe82426497bb42f6a515e2c276dd6ee90db
   JKSandBoxManager: 95a14f4e204532fe5f361704231a6a9610a347a7
   JKUIHelper: d9ae7ccfface9f49b0c09acec6b7eea2ac06b1ef
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
