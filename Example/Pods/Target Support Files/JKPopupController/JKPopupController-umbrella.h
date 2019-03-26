@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "CNPPopupController.h"
+#import "JKPopupController.h"
+#import "JKPopupMacro.h"
+#import "JKPopupView.h"
 
 FOUNDATION_EXPORT double JKPopupControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char JKPopupControllerVersionString[];

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKPopupController'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JKPopupController.'
+  s.version          = '0.3.6'
+  s.summary          = 'this is a PopupController.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Tthis is a PopupController,it will update with the need
                        DESC
 
-  s.homepage         = 'https://github.com/xindizhiyin2014/JKPopupController'
+  s.homepage         = 'https://github.com/xindizhiyin2014/CNPPopupController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xindizhiyin2014' => 'jack18@same.com' }
-  s.source           = { :git => 'https://github.com/xindizhiyin2014/JKPopupController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xindizhiyin2014/CNPPopupController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'HexColors','2.2.1'
+   s.dependency 'JKSandBoxManager'
+   s.dependency 'JKUIHelper'
 end

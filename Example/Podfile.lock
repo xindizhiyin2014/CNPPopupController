@@ -1,5 +1,19 @@
 PODS:
-  - JKPopupController (0.1.0)
+  - HexColors (2.2.1)
+  - JKPopupController (0.3.6):
+    - HexColors (= 2.2.1)
+    - JKSandBoxManager
+    - JKUIHelper
+  - JKSandBoxManager (0.1.6.3)
+  - JKUIHelper (0.1.4.2):
+    - JKUIHelper/JKHitTest (= 0.1.4.2)
+    - JKUIHelper/JKRoundCorner (= 0.1.4.2)
+    - JKUIHelper/JKShadow (= 0.1.4.2)
+    - JKUIHelper/JKTextView (= 0.1.4.2)
+  - JKUIHelper/JKHitTest (0.1.4.2)
+  - JKUIHelper/JKRoundCorner (0.1.4.2)
+  - JKUIHelper/JKShadow (0.1.4.2)
+  - JKUIHelper/JKTextView (0.1.4.2)
   - Kiwi (3.0.0)
 
 DEPENDENCIES:
@@ -8,6 +22,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - HexColors
+    - JKSandBoxManager
+    - JKUIHelper
     - Kiwi
 
 EXTERNAL SOURCES:
@@ -15,7 +32,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKPopupController: 28dc0383571166ee80ef4690bd65863ff58c55f7
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  JKPopupController: 7734b0c9f108d11bf1c7650f7672b151bcac42f7
+  JKSandBoxManager: 95a14f4e204532fe5f361704231a6a9610a347a7
+  JKUIHelper: d9ae7ccfface9f49b0c09acec6b7eea2ac06b1ef
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
 
 PODFILE CHECKSUM: b42ccae3ba0d67e7cc710dca6741495a54963703
