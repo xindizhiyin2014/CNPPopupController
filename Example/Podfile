@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JKPopupController_Example' do
+  pod 'JKPopupController', :path => '../'
+
+  target 'JKPopupController_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

@@ -1,0 +1,23 @@
+PODS:
+  - JKPopupController (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - JKPopupController (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  JKPopupController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKPopupController: 28dc0383571166ee80ef4690bd65863ff58c55f7
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: b42ccae3ba0d67e7cc710dca6741495a54963703
+
+COCOAPODS: 1.5.3
