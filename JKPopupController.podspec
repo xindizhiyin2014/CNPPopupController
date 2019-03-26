@@ -24,7 +24,7 @@ Tthis is a PopupController,it will update with the need
   s.homepage         = 'https://github.com/xindizhiyin2014/CNPPopupController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xindizhiyin2014' => 'jack18@same.com' }
+  s.author           = { 'xindizhiyin2014' => '929097264@qq.com' }
   s.source           = { :git => 'https://github.com/xindizhiyin2014/CNPPopupController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
